@@ -57,9 +57,12 @@
       text-transform: uppercase;
       font-weight: 500;
       transition: all 0.3s ease-in-out;
+      font-size: 1.2rem;
 
       &:hover {
         color: var(--secondary-color);
+        transform: skewX(15deg) skewY(2deg) scale(1.1);
+        text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
       }
     }
 

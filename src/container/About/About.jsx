@@ -41,7 +41,7 @@ const About = () => {
 
   return (
     <>
-      <h2 className='head-text' style={{ marginTop: 50 }}>
+      <h2 className='head-text head_rotation_skew' style={{ marginTop: 50 }}>
         I Know that <span>Good Apps</span>
         <br /> means <span>Good Business</span>
       </h2>
