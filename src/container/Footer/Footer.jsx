@@ -45,7 +45,6 @@ const Footer = () => {
       <h2 className='head-text head_rotation_skew'>
         Take a Coffee & <span> Chat</span> With Me!
       </h2>
-
       <div className='app__footer-cards'>
         <div className='app__footer-card '>
           <img src={images.email} alt='email' />
@@ -64,6 +63,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
+
       {!isFormSubmitted ? (
         <div className='app__footer-form app__flex'>
           <div className='app__flex'>

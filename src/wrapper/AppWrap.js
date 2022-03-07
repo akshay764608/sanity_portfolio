@@ -11,7 +11,13 @@ const AppWrap = (Component, idName, classNames) =>
           <Component />
 
           <div className='copyright'>
-            <p className='p-text'>@{new Date().getFullYear()} Akshay</p>
+            <a
+              href='https://kumarakshay.netlify.app/'
+              className='p-text'
+              style={{ textDecoration: 'none' }}
+            >
+              @{new Date().getFullYear()} Akshay
+            </a>
             <p className='p-text'>All rights reserved</p>
           </div>
         </div>
